@@ -1,0 +1,50 @@
+.container{
+    padding: 2%;
+    height: fit-content;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+header{
+    padding: 2%;
+}
+
+#button{
+    font-size: large;    
+    text-transform: uppercase;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    color:white;
+
+}
+
+.container .btn-secondary:hover,.btn-secondary:checked, .btn-secondary:visited,.btn-secondary:focus {
+    background-color: #43e28a !important;
+    color: black;
+}
+
+.parent{
+    padding: 2%;
+    border-style: solid;
+    border-bottom: white;
+}
+.new-div {
+    color: gray;  
+    }
+
+.collapse ,.card{
+    /* padding-top: 1%; */
+    /* background: rgb(140, 223, 8) !important; */
+    /* color: red; */
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    /* height: 20%; */
+}
+    
